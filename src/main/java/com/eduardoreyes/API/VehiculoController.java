@@ -1,6 +1,5 @@
 package com.eduardoreyes.API;
 
-import Clases.Repartidor;
 import Clases.Vehiculo;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -29,7 +28,7 @@ public class VehiculoController {
     }
 
     @GetMapping
-    public ResponseEntity<List<Vehiculo>> obtenerRepartidores() {
+    public ResponseEntity<List<Vehiculo>> obtenerVehiculos() {
         if (colaVehiculos.isEmpty()) {
             return ResponseEntity.noContent().build();
         }
