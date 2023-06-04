@@ -1,14 +1,12 @@
 package com.eduardoreyes.API;
 
 import Clases.ListaUsuario;
-import Clases.Repartidor;
 import Clases.Usuario;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Queue;
 
 @RestController
 @RequestMapping("/api/users")

@@ -15,6 +15,7 @@ public class Vehiculo {
         this.Year = Year;
     }
 
+
     public String getPlaca() {
         return Placa;
     }
@@ -34,4 +35,7 @@ public class Vehiculo {
     public String getYear() {
         return Year;
     }
+
+
 }
+
